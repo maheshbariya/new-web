@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+.logo img{
+    width: 45%;
+    padding-top: 1.5rem;
+}
+.logo{
+    width: 22%;
+}
+.sec-one{
+  background-image: url(./img/back.webp);
+  background-size: 100%;
+}
+.row{
+    display: flex;
+}
+.jsc{
+    justify-content: space-between;
+}
+.link ul li{
+    list-style: none;
+    padding: 50px 0 0 0;
+}
+.link ul li a{
+    text-decoration: none;
+    color: #ffff;
+    /* background-color: black; */
+    margin: 0 2rem;
+    font-size: 20px;
+    /* border: 0.1rem solid #ffff; */
+    padding: 8px 20px;
+}
+.link ul li a:hover{
+    font-size: 25px;
+    transition: 0.8s;
+    /* margin: 1rem; */
+
+
+}
+.icon{
+    color: #ffff;
+    font-size: 2rem;
+    padding: 3rem 0 0 0;
+}
+.icon:hover{
+    cursor: pointer;
+    transition: 0.8s;
+
+}
+.sec-oneh1 h1{
+    color: #ffff;
+    font-size: 65px;
+    /* font-family: cursive; */
+}
+.sec-oneh1 h1:hover{
+    color: rgb(255, 227, 194);
+    transition: 0.8s;
+
+}
+.sec-oneh1{
+    padding:140px 50px;
+}
+.sec-oneh1 input{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 8px 20px;
+    margin: 20px 0 0 0;
+    font-size: 20px;
+    border: none;
+    box-shadow: 5px 5px 30px rgb(238, 237, 237);
+}
+.sec-oneh1 input:hover{
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+    transition: 0.8s;
+
+}
+/* ----------------------------------SECTION-TWO ------------------------------------------------------------------*/
+.sec-two{
+    background-color:rgb(87, 84, 84);
+}
+.col-50{
+    width: 50%;
+    margin:0 auto;
+}
+.leftcol50 h2{
+    color: #ffff;
+    font-size:45px;
+    padding: 100px 0 50px 0;
+}
+.leftcol50 p{
+    color: #ffff;
+    font-size:25px;
+    padding: 0 0 25px 0;
+}
+.rightcol50 img{
+    width: 100%;
+    padding: 50px 0 40px 0;
+}
+.rightcol50{
+    background: url(./img/w153\ 840x560.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 27rem;
+}
+.rightcol50:hover{
+    background: url(./img/Napoli\ Black_1360x575.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20rem;
+    padding: 1rem;
+    transition: 2s;
+}
+.sec2btn input{
+    padding: 6px 20px;
+    margin:0 0 0 10px;
+    font-size: 20px;
+    border: none;
+    box-shadow: 5px 5px 30px rgb(0, 0, 0);
+}
+.sec2btn input:hover{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    /* box-shadow: 5px 5px 30px rgb(255, 255, 255); */
+    padding: 4px 16px;
+    transition: 0.8s;
+
+
+
+}
+/* ----------------------------------SECTION-THREE ------------------------------------------------------------------*/
+.sec-three{
+    background-color: rgb(43, 42, 42);
+}
+.sec3col50{
+    width: 50%;
+    margin: 0 auto;
+}
+.sec3title h3{
+    font-size: 25px;
+    color: #ffff;
+    padding: 80px 0 10px 0;
+    border-bottom: 2px solid #fff;
+    /* width: 70%; */
+}
+.col-20{
+    width: 40%;
+    margin: 0 auto;
+    color: #fff;
+    padding: 25px 0 50px 0;
+}
+.col-20 h2{
+    padding: 0 0 10px 0;
+}
+.col-20 h3{
+    color: darkgrey;
+}
+.sec3col50 img{
+    width: 100%;
+    padding: 100px 0 0 0;
+}
+
+/*------------------------------------------- SECTION-4 ----------------------------------------- */
+.sec-four video{
+    width: 100%;
+}
+/*------------------------------------------- SECTION-5 ----------------------------------------- */
+.col-18{
+    width: 18%;
+    margin: 0 auto;
+    padding: 70px 0 40px 0;
+    color: #fff;
+}
+.sec-five{
+    background-color: rgb(73, 72, 72);
+    position: relative;
+    bottom: 10px;
+}
+.icn{
+    color: #fff;
+    font-size: 25px;
+}
+.icn i:hover{
+    color: rgb(255, 38, 0);
+}
+.icn i{
+    padding: 0 10px  0 0;
+}
+.icn h4{
+    padding: 25px 0 0 0;
+}
+.links{
+    padding: 20px 0 0 0;
+}
+.links li{
+    list-style: none;
+    padding: 0 0 15px 0;
+}
+.links li a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+.links li a:hover{
+    color: rgb(255, 38, 0);
+    transition: 0.8s;
+
+}
